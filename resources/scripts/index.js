@@ -62,4 +62,9 @@ resetGameButton.addEventListener('click', function(e) {
   welcomeScreen.classList.remove(`d-none`);
      gameScreen.classList.add(`d-none`);
   resetGameButton.classList.add(`d-none`);
+  
+  + import { RockPaperScissors } from './rock_paper_scissors.js';
+// Elements
+const welcomeScreen = document.getElementById(`welcome-screen`);
+const gameScreen = document.getElementById(`game-screen`);
 })
